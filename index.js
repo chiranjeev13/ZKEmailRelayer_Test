@@ -15,7 +15,7 @@ import { privateKeyToAccount } from "viem/accounts";
 let SimpleWallet = `0xf22d55bfFA001cb87c7bF3E74136FeAeb60989bA`;
 let RecoveryController = `0x7586b7be20ca15b3194A28Cf344f3E3fba2694FE`;
 
-const pvtkey = `0x72d99c45e8580b3d1b9d18bfd7ace47a0bd79eb29e78ef79fad0c9f2c50cdd25`;
+const pvtkey = ``;
 const account = privateKeyToAccount(pvtkey);
 const wallet = createWalletClient({
   account,
